@@ -1,0 +1,53 @@
+.product-image {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    min-height: 100px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 100px;
+    line-height: 100px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.product-information>p {
+    font-size: 0.8em;
+    margin-bottom: 7px;
+}
+
+.disabled {
+    color: #c7c7c7;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 1em 0;
+    padding: 0;
+    padding-bottom: 3px;
+}
+
+ul>li:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.btn-bordered {
+    background-color: #fff;
+    border: 1px;
+    border-color: #000000;
+    border-style: solid;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px;
+    font-size: 0.9em;
+}
